@@ -53,6 +53,8 @@ CHUANHU_DESCRIPTION = i18n("由Bilibili [土川虎虎虎](https://space.bilibili
 
 
 ONLINE_MODELS = [
+    "ERNIE-Speed-8K",
+    "ERNIE-Speed-128K",
     "GPT3.5 Turbo",
     "GPT-4o",
     "GPT4 Turbo",
@@ -309,6 +311,14 @@ MODEL_METADATA = {
     "ERNIE-Bot-4": {
         "model_name": "ERNIE-Bot-4",
         "token_limit": 1024,
+    },
+    "ERNIE-Speed-8K": {
+        "model_name": "ERNIE-Speed-8K",
+        "token_limit": 8192,
+    },
+    "ERNIE-Speed-128K": {
+        "model_name": "ERNIE-Speed-128K",
+        "token_limit": 131072,
     },
     "Gemini Pro": {
         "model_name": "gemini-pro",

@@ -18,6 +18,10 @@ class ERNIE_Client(BaseLLMModel):
             self.ERNIE_url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions?access_token="
         elif self.model_name == "ERNIE-Bot-4":
             self.ERNIE_url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions_pro?access_token="
+        elif self.model_name == "ERNIE-Speed-8K":
+            self.ERNIE_url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ernie_speed?access_token="
+        elif self.model_name == "ERNIE-Speed-128K":
+            self.ERNIE_url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ernie-speed-128k?access_token="
 
     def get_access_token(self):
         """
