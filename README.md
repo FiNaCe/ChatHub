@@ -3,14 +3,16 @@
   简体中文 | <a title="English" href="./readme/README_en.md">English</a> | <a title="Japanese" href="./readme/README_ja.md">日本語</a> | <a title="Russian" href="./readme/README_ru.md">Russian</a> | <a title="Korean" href="./readme/README_ko.md">한국어</a>
 </div>
 
-<h1 align="center">川虎 Chat 🐯 Chuanhu Chat</h1>
+<h1 align="center">🐯 虎聊 HooChat</h1>
 <div align="center">
   <a href="https://github.com/GaiZhenBiao/ChuanhuChatGPT">
     <img src="https://github.com/GaiZhenbiao/ChuanhuChatGPT/assets/70903329/aca3a7ec-4f1d-4667-890c-a6f47bf08f63" alt="Logo" height="156">
   </a>
 
 <p align="center">
-    <h3>为ChatGPT等多种LLM提供了一个轻快好用的Web图形界面和众多附加功能</h3>
+   <h3><i>Forked From ChuanhuChatGPT</i></h3>
+    <h3>支持GPT、文心一言、讯飞等国内外收费版、免费版商用大模型</h3>
+    <h3>支持Llama、ChatGLM、QWen等国内外开源大模型</h3>
     <p align="center">
       <a href="https://github.com/GaiZhenbiao/ChuanhuChatGPT/blob/main/LICENSE">
         <img alt="Tests Passing" src="https://img.shields.io/github/license/GaiZhenbiao/ChuanhuChatGPT" />
