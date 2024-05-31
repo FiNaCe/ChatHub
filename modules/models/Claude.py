@@ -6,9 +6,10 @@ from .base_model import BaseLLMModel
 
 
 class Claude_Client(BaseLLMModel):
-    def __init__(self, model_name, api_secret) -> None:
+    def __init__(self, model_name, api_secret, user_name) -> None:
         super().__init__(model_name=model_name)
         self.api_secret = api_secret
+        self.user_name = user_name
         if None in [self.api_secret]:
             raise Exception("请在配置文件或者环境变量中设置Claude的API Secret")
         self.claude_client = Anthropic(api_key=self.api_secret, base_url=self.api_host)

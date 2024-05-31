@@ -5,10 +5,11 @@ from .base_model import BaseLLMModel
 
 
 class ERNIE_Client(BaseLLMModel):
-    def __init__(self, model_name, api_key, secret_key) -> None:
+    def __init__(self, model_name, api_key, secret_key, user_name) -> None:
         super().__init__(model_name=model_name)
         self.api_key = api_key
         self.api_secret = secret_key
+        self.user_name = user_name
         if None in [self.api_secret, self.api_key]:
             raise Exception("请在配置文件或者环境变量中设置文心一言的API Key 和 Secret Key")
 
