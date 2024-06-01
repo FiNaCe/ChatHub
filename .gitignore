@@ -148,6 +148,8 @@ templates/*
 files/
 tmp/
 
+TODO.md
+
 scripts/
 include/
 pyvenv.cfg
