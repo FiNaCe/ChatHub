@@ -132,7 +132,7 @@ pip install -r requirements.txt
 次に `config_example.json`をコピーして `config.json`にリネームし、そのファイルにAPI-Keyなどの設定を記入する。
 
 ```shell
-python ChuanhuChatbot.py
+python chat_hub.py
 ```
 
 ブラウザのウィンドウが開き、ChatGPTとチャットできるようになります。

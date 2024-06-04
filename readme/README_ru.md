@@ -131,7 +131,7 @@ pip install -r requirements.txt
 Затем создайте копию `config_example.json`, переименуйте ее в `config.json`, а затем укажите в файле свой API-ключ и другие настройки.
 
 ```shell
-python ChuanhuChatbot.py
+python chat_hub.py
 ```
 
 Откроется окно браузера, и вы сможете общаться с ChatGPT.

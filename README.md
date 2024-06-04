@@ -3,7 +3,7 @@
   简体中文 | <a title="English" href="./readme/README_en.md">English</a> | <a title="Japanese" href="./readme/README_ja.md">日本語</a> | <a title="Russian" href="./readme/README_ru.md">Russian</a> | <a title="Korean" href="./readme/README_ko.md">한국어</a>
 </div>
 
-<h1 align="center">🐯 虎聊 HooChat</h1>
+<h1 align="center">🐯 ChatHub</h1>
 <div align="center">
   <a href="https://github.com/GaiZhenBiao/ChuanhuChatGPT">
     <img src="https://github.com/GaiZhenbiao/ChuanhuChatGPT/assets/70903329/aca3a7ec-4f1d-4667-890c-a6f47bf08f63" alt="Logo" height="156">
@@ -11,7 +11,8 @@
 
 <p align="center">
    <h3><i>Forked From ChuanhuChatGPT</i></h3>
-    <h3>支持GPT、文心一言、讯飞等国内外收费版、免费版商用大模型</h3>
+    <h3>支持文心一言speed/lite、混元lite、讯飞星火lite等免费版商用大模型</h3>
+    <h3>支持GPT、Claude、Gemini、Moonshot、豆包等国内外商用大模型</h3>
     <h3>支持Llama、ChatGLM、QWen等国内外开源大模型</h3>
     <p align="center">
       <a href="https://github.com/GaiZhenbiao/ChuanhuChatGPT/blob/main/LICENSE">
@@ -141,7 +142,7 @@ pip install -r requirements.txt
 然后，在项目文件夹中复制一份 `config_example.json`，并将其重命名为 `config.json`，在其中填入 `API-Key` 等设置。
 
 ```shell
-python ChuanhuChatbot.py
+python chat_hub.py
 ```
 
 一个浏览器窗口将会自动打开，此时您将可以使用 **川虎Chat** 与ChatGPT或其他模型进行对话。

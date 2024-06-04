@@ -134,7 +134,7 @@ pip install -r requirements.txt
 `config_example.json`의 복제본을 만들고, 이름을 `config.json`로 변경합니다, 이후 파일에서 API키와 다른 세팅들을 수정합니다.
 
 ```shell
-python ChuanhuChatbot.py
+python chat_hub.py
 ```
 
 브라우저가 자동으로 열리고 **Chuanhu Chat**를 사용해 ChatGPT 또는 다른 모델들을 사용할 수 있습니다.

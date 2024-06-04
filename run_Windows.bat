@@ -16,7 +16,7 @@ if not exist "%~dp0\ChuanhuChat\Scripts" (
 goto :activate_venv
 
 :launch
-%PYTHON% ChuanhuChatbot.py %*
+%PYTHON% chat_hub.py %*
 pause
 
 :activate_venv

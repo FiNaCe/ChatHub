@@ -135,7 +135,7 @@ pip install -r requirements.txt
 Then make a copy of `config_example.json`, rename it to `config.json`, and then fill in your API-Key and other settings in the file.
 
 ```shell
-python ChuanhuChatbot.py
+python chat_hub.py
 ```
 
 A browser window will automatically open, at this point you can use **Chuanhu Chat** to chat with ChatGPT or other models.
